@@ -2,7 +2,8 @@
 def speak_to_grandma(phrase)
   toCheck = phrase.upcase
   if toCheck != phrase
-    return 
+    return "HUH?! SPEAK UP, SONNY!"
+  end
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
